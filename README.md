@@ -18,7 +18,8 @@ Use backend validations to ensure that all author names are at least three chara
 
 
 
-![](https://assets.codingdojo.com/boomyeah2015/codingdojo/curriculum/content/chapter/1684420219__518authorswireframefix.png)
+![image](https://github.com/AndrewT-Tran/CRUD-Authors/assets/112746783/40d37b15-9b75-49f3-a7d3-b79db721dfad)
+
 
 **BONUS**: Sort the authors alphabetically.
 
