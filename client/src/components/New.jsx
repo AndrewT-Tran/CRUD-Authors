@@ -15,15 +15,19 @@ const New = () => {
 
     return (
         <form onSubmit={onSubmit}>
-            <p>
-                <label>Author's Name:</label>
-                <input
-                    type="text"
-                    onChange={(e) => setName(e.target.value)}
+            		<div className="form-control w-full max-w-xs mx-auto">
+					<label className="label">
+						<span className="label-text">Favorite Author's name?</span>
+					</label>
+					<input
+						type="text"
+						placeholder="Type here"
+						className="input input-bordered input-success w-full min-w-xs"
+                              onChange={(e) => setName(e.target.value)}
                     value={name}
-                />
-            </p>
+      />
             <button type="submit">Submit</button>
+            </div>
         </form>
     );
 };

@@ -25,7 +25,7 @@ const AuthorList = () => {
 
     return (
         <>
-            <h1 className="text-2xl text-primary font-semibold">
+            <h1 className="text-2xl text-red-400 my-2 font-light">
                 We have quotes by :
             </h1>
             <div className="overflow-x-auto">
@@ -40,7 +40,7 @@ const AuthorList = () => {
                     </thead>
                     <tbody>
                         {authors.map((author) => (
-                            <tr className="bg-secondary-content" key={author._id}>
+                            <tr className="bg-content" key={author._id}>
                                 <td className="text-xl font-semibold text-secondary-focus">
                                     {author.name}
                                 </td>
