@@ -19,7 +19,12 @@ const AuthorList = () => {
     useEffect(() => {
         axios
             .get("http://localhost:8000/api/author")
-            .then((res) => setAuthors(res.data))
+            .then((res) => {
+                const sortedAuthors = res.data.sort((a, b) =>
+                    a.name.localeCompare(b.name)
+                );
+                setAuthors(sortedAuthors);
+            })
             .catch((err) => console.error(err));
     }, []);
 
