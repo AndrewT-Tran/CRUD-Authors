@@ -36,8 +36,8 @@ const Update = () => {
 					</label>
 					<input
 						type="text"
-						placeholder="Type here"
-						className="input input-bordered input-success w-full min-w-xs"
+						placeholder="Updated name here"
+						className="input input-bordered border-solid border-2 input-warning w-full min-w-xs"
 						name="name"
 						id="name"
 						value={authorName}
@@ -46,7 +46,7 @@ const Update = () => {
 						}}
 					/>
 					<button
-						className="btn-xs btn-success min-w-min rounded my-2"
+						className="btn btn-outine bg-warning outline-4 my-2 w-1/3 text-white mx-auto"
 						onClick={updateAuthor}
 						type="submit">
 						Update

@@ -22,11 +22,11 @@ const New = () => {
 				<input
 					type="text"
 					placeholder="Type here"
-					className="input input-bordered input-success w-full min-w-xs"
+					className="input input-bordered border-solid border-2 input-success w-full min-w-xs"
 					onChange={(e) => setName(e.target.value)}
 					value={name}
 				/>
-				<button type="submit">Submit</button>
+				<button className="btn btn-success my-2 w-1/3 text-white mx-auto" type="submit">Submit</button>
 			</div>
 		</form>
 	);
