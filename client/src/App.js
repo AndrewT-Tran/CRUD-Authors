@@ -7,13 +7,13 @@ import { Routes, Route, Link } from "react-router-dom";
 function App() {
 	return (
 		<div className="App">
-			<Link to="/" className="link-secondary link-hover text-2xl">
+			<Link to="/" className="font-light link-secondary link-hover text-xl px-1 text-primary-focus">
 				<span className="text-warning"> | </span>
 				Home<span className="text-warning"> | </span>
 			</Link>
-			<Link to="/author/new" className="link-primary link-hover text-2xl">
-				<span className="text-success"> + </span> Add an Author{" "}
-				<span className="text-warning"> | </span>
+			<Link to="/author/new" className="font-light link-primary link-hover text-xl text-info">
+				<span className="text-success">+</span> Add an Author
+				 <span className="text-warning"> | </span>
 			</Link>
 
 			<Routes>
